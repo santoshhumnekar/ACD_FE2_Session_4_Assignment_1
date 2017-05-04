@@ -16,7 +16,7 @@ class Car implements Drivable
 	}
 	getPosition()
 	{
-		console.log("GPS coordinates are: 123.111.111,1125,111,555.6");
+		console.log("GPS coordinates are: 192.168.111,125,255,255.6");
 	}
 }
 
@@ -47,7 +47,7 @@ class FlyingCar implements Drivable,Flyable
 		console.log("FlyingCar is in drive mode");
 	}
 	getPosition(){
-		console.log("GPS coordinates are: 123.111.111,1125,111,555.6");
+		console.log("GPS coordinates are: 192.168.111,125,255,255.6");
 	}
 	takeoff(){
 		console.log("Flying Car has started taking off");
