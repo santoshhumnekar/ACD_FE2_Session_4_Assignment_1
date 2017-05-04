@@ -7,7 +7,7 @@ let Car = (function() {
         console.log("Car is in drive mode");
     };
     Car.prototype.getPosition = function() {
-        console.log("GPS coordinates are: 123.111.111,1125,111,555.6");
+        console.log("GPS coordinates are: 192.168.111,125,255,255.6");
     };
     return Car;
 }());
@@ -33,7 +33,7 @@ let FlyingCar = (function() {
         console.log("FlyingCar is in drive mode");
     };
     FlyingCar.prototype.getPosition = function() {
-        console.log("GPS coordinates are: 123.111.111,1125,111,555.6");
+        console.log("GPS coordinates are: 192.168.111,125,255,255.6");
     };
     FlyingCar.prototype.takeoff = function() {
         console.log("Flying Car has started taking off");
